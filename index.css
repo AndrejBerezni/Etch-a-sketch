@@ -90,6 +90,7 @@ main {
     font-family: var(--textFont);
 }
 
+
 #controls button {
     font-family: var(--textFont);
     background-color: var(--lightred);
@@ -100,6 +101,11 @@ main {
     font-size: 1.1rem;
     box-shadow: 1px 0px 2px var(--lightred);
     min-width: 16vw;
+}
+
+#color-mode.active, #rainbow.active {
+    background-color: var(--darkred);
+    box-shadow: 0px 0px 20px var(--darkcream);
 }
 
 
