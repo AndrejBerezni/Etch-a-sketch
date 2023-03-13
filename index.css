@@ -57,7 +57,7 @@ header h1 {
 }
 
 footer p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 main {
@@ -79,6 +79,7 @@ main {
     max-height: 60vh;
     border: 2px solid var(--darkred);
     box-shadow: 1px 0px 5px var(--lightred);
+    display: grid;
 }
 
 #controls {
